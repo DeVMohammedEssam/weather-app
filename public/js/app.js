@@ -1,4 +1,3 @@
-console.log("client js was loaded");
 const getForecast = (address, cb) => {
   const url = `http://localhost:5000/weather?address=${address}`;
   fetch(url, {
