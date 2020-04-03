@@ -1,5 +1,5 @@
 const getForecast = (address, cb) => {
-  const url = `http://localhost:5000/weather?address=${address}`;
+  const url = `/weather?address=${address}`;
   fetch(url, {
     method: "GET"
   })
